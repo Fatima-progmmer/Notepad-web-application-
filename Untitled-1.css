@@ -95,3 +95,53 @@
         width: 20px;
     }
 }
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    .container h1 {
+        font-size: 28px;
+    }
+    .container button {
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+    .input-box {
+        padding: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container h1 {
+        font-size: 24px;
+    }
+    .container button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .input-box {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .container {
+        padding: 20px;
+    }
+    .container h1 {
+        font-size: 20px;
+    }
+    .container button {
+        padding: 8px 18px;
+        font-size: 10px;
+    }
+    .input-box {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .input-box img {
+        width: 20px;
+    }
+}
